@@ -1,0 +1,222 @@
+            /* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212;   /* Black background */
+  color: #e0e0e0;              /* Light gray text */
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  color: #00bcd4; /* teal-blue accent */
+  font-size: 22px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Main content */
+main {
+  padding: 30px;
+  min-height: 80vh;
+}
+
+/* Footer */
+footer {
+  background: #1f1f1f;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Forms */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #1e1e1e;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00bcd4;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input, 
+form select, 
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  outline: 2px solid #00bcd4;
+}
+
+/* Buttons */
+button, .btn {
+  display: inline-block;
+  background: #00bcd4;
+  color: #121212;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background: #0097a7;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+table th {
+  background: #1f1f1f;
+  color: #00bcd4;
+}
+
+table tr:hover {
+  background: #2a2a2a;
+}
+
+/* Dashboard Chart Container */
+.chart-container {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* Cards for last transactions */
+.card {
+  background: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #00bcd4;
+}
+
+/* Home Stats Section */
+.home-stats {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home-stats h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #00bcd4;
+}
+
+/* Stats Cards Container */
+.stats-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Individual Card */
+.stats-cards .card {
+  flex: 1 1 250px;
+  text-align: center;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.7);
+}
+
+/* Card Headings */
+.stats-cards .card h3 {
+  margin-bottom: 15px;
+  color: #00bcd4;
+}
+
+/* Card Text / Lists */
+.stats-cards .card p,
+.stats-cards .card ul {
+  color: #e0e0e0;
+  font-size: 16px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.stats-cards .card ul li {
+  margin-bottom: 5px;
+}
+
+/* Pie Chart inside Card */
+.stats-cards .chart-container {
+  max-width: 250px;
+  margin: auto;
+  padding: 15px;
+}
