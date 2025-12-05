@@ -10,7 +10,7 @@ Simple steps to use/present project to college or others.
 3. Project Have SQL file to import it in MYADMIN/ SQl databse.
 4. Open xampp Control panel.
 5. Start Apache and MYSQL.
-6. IM 2nd row of xampp contol panel(MYSQL) , select Admin option. this opens PHPMYADMIN.
+6. OM 2nd row of xampp contol panel(MYSQL) , select Admin option. this opens PHPMYADMIN.
 7. click on new option at left corner where database can be created.
 8. Then select "import" option at header of page (Below search bar of browser).
 9. Select choose file Option and then Select sql file in C:\xampp\htdocs\expense_tracker\sql.
@@ -41,3 +41,4 @@ Simple steps to use/present project to college or others.
   👉 http://localhost/expense_tracker/
   Press Enter — your project should now be running!
 5.🎉 Winner, winner, chicken dinner!
+
