@@ -4,7 +4,7 @@ This Project is perfect example for beginners or students for completetion of mi
 Simple steps to use/present project to college or others.
 
 
-(My steps)
+
 1. Need of XAMPP to run PHP on Pc/laptop
 2. Download and place project into C:\xampp\htdocs or folder where your xampp folder  is installed.
 3. Project Have SQL file to import it in MYADMIN/ SQl databse.
@@ -41,5 +41,6 @@ Simple steps to use/present project to college or others.
   👉 http://localhost/expense_tracker/
   Press Enter — your project should now be running!
 5.🎉 Winner, winner, chicken dinner!
+
 
 
